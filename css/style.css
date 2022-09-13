@@ -69,6 +69,21 @@ transform-origin:  right center;
 
  
 }
+.section .thumbnail-card .thumbnail-card-text{ 
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    background: linear-gradient(to bottom,transparent,#202431,#202431);
+    padding-top: 30px;
+    padding: 15px;
+    font-size: 10px;
+    display: none;
+    color:white;
+      }
+      .section .thumbnail-card:hover .thumbnail-card-text{ 
+          display:block;
+      }
 .footer{ 
     margin-top: 50px;
 }
